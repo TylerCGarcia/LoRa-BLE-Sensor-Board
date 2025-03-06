@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "cc7ac87f-f524-46b8-b856-a8c437fb3dfe")
 	(paper "A3")
+	(title_block
+		(title "LoRa-BLE-Sensor")
+		(date "2025-03-05")
+		(rev "1")
+		(company "Cyber Jungle")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
@@ -14809,7 +14815,7 @@
 		)
 		(uuid "3957e8e0-f8df-4dc2-b1f0-a662e480f01f")
 	)
-	(text "NPM1300"
+	(text "RAK4630"
 		(exclude_from_sim no)
 		(at 20.32 24.13 0)
 		(effects

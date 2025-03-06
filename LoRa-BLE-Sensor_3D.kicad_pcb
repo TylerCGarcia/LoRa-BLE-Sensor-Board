@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "LoRa-BLE-Sensor")
+		(date "2025-03-05")
+		(rev "1")
+		(company "Cyber Jungle")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" power "GND")
@@ -35514,17 +35520,6 @@
 		(fill solid)
 		(layer "F.Mask")
 		(uuid "cbb71f2f-922c-4089-aea3-ec861547b8a5")
-	)
-	(gr_rect
-		(start 54.5 15)
-		(end 169.5 130)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "Dwgs.User")
-		(uuid "b3e2a349-76af-4994-9ecd-e32044f1af35")
 	)
 	(gr_line
 		(start 121.8625 62.1)
