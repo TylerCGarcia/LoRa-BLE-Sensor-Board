@@ -17979,7 +17979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "300K"
 			(at 223.52 171.704 90)
 			(effects
 				(font
@@ -20395,7 +20395,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "300K"
 			(at 231.14 175.2599 0)
 			(effects
 				(font
@@ -21501,7 +21501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "300K"
 			(at 185.42 96.5199 0)
 			(effects
 				(font
@@ -24118,7 +24118,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "300K"
 			(at 231.14 213.3599 0)
 			(effects
 				(font
@@ -25624,7 +25624,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500K"
+		(property "Value" "300K"
 			(at 223.52 209.804 90)
 			(effects
 				(font
