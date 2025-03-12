@@ -1,4 +1,4 @@
-24832711488541104
+24834452872455290
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99077,6 +99077,13 @@ LoRa-E5 STM32WLE
 0
 28
 28
+User_Modules
+MS12SF1
+MS12SF1 BLE and WiFi Module from MINEWSEMI
+
+0
+48
+48
 User_Modules
 RAK3172
 RAK3172 LoRaWAN module from RAKwireless.
