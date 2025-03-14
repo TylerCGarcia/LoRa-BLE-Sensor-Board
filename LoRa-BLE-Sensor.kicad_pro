@@ -702,7 +702,7 @@
       "idf": "",
       "netlist": "",
       "plot": "Manufacturing/LoRa-BLE-Sensor_V1.0_Gerber/",
-      "pos_files": "",
+      "pos_files": "Manufacturing/LoRa-BLE-Sensor_V1.0_Placement/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
