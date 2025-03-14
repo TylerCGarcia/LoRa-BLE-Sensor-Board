@@ -1,5 +1,5 @@
 # LoRa_BLE_Sensor Board
-
+CAD: KiCad 9.0
 # Overview
 A RAK4630 based sensor board that uses BLE and LoRaWAN. This board is configured to use two industrial sensors and a relay simultaneously. 
 It is designed so the sensor can be powered with 3.3V, 5V, 12V or 24V that are switched between through firmware. It is designed for each sensor to have its own unique 
@@ -37,6 +37,7 @@ power supply, independent of the other sensor. It is designed for work with eith
    * Allow for feedback reistances to be changes to adjust output
    * BOOST1_FB_CTRL1 set to 0, BOOST1_FB_CTRL2 set to 0 --> 24V
    * BOOST1_FB_CTRL1 set to 1, BOOST1_FB_CTRL2 set to 0 --> 12V
+   * BOOST1_FB_CTRL1 set to 0, BOOST1_FB_CTRL2 set to 1 --> 6V
    * BOOST1_FB_CTRL1 set to 1, BOOST1_FB_CTRL2 set to 1 --> 5V
 
 **Boost 2** 
@@ -47,6 +48,7 @@ power supply, independent of the other sensor. It is designed for work with eith
    * Allow for feedback reistances to be changes to adjust output
    * BOOST2_FB_CTRL1 set to 0, BOOST2_FB_CTRL2 set to 0 --> 24V
    * BOOST2_FB_CTRL1 set to 1, BOOST2_FB_CTRL2 set to 0 --> 12V
+   * BOOST2_FB_CTRL1 set to 0, BOOST2_FB_CTRL2 set to 1 --> 6V
    * BOOST2_FB_CTRL1 set to 1, BOOST2_FB_CTRL2 set to 1 --> 5V
 
 **Power Switches** 
