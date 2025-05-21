@@ -84,6 +84,13 @@ power supply, independent of the other sensor. It is designed for work with eith
 # Power Analysis
 
 # Bugs/To-Do
+- Remove two digital pins from each sensor
+- Remove relay
+- Add fuses to sensor power outputs
+- Add switches between sensor power outputs and level shifters or change design of level shifters
+- Add NFC connector
+- Adjust mounting holes
+- Remove voltage divider on power switches
 
 # Revision History
 Current Version: **V1.0**
