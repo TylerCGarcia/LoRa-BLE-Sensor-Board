@@ -13360,7 +13360,7 @@
 			)
 		)
 	)
-	(global_label "I0_NRF"
+	(global_label "SENSOR1_IIN_NRF"
 		(shape input)
 		(at 153.67 156.21 0)
 		(fields_autoplaced yes)
@@ -13372,7 +13372,7 @@
 		)
 		(uuid "0b258101-9941-432c-a97b-a6870963176e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.1155 156.21 0)
+			(at 169.306 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13404,7 @@
 			)
 		)
 	)
-	(global_label "V1_NRF"
+	(global_label "SENSOR2_VIN_NRF"
 		(shape input)
 		(at 153.67 214.63 0)
 		(fields_autoplaced yes)
@@ -13416,7 +13416,7 @@
 		)
 		(uuid "0be4cbb9-2d4b-4600-928c-1bb689552745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4964 214.63 0)
+			(at 169.6869 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +13470,7 @@
 			)
 		)
 	)
-	(global_label "I1_NRF"
+	(global_label "SENSOR2_IIN_NRF"
 		(shape input)
 		(at 153.67 175.26 0)
 		(fields_autoplaced yes)
@@ -13482,7 +13482,7 @@
 		)
 		(uuid "132696b9-e225-4ec9-b66e-1782709a6a3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.1155 175.26 0)
+			(at 169.306 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13866,7 +13866,7 @@
 			)
 		)
 	)
-	(global_label "I1_NRF"
+	(global_label "SENSOR2_IIN_NRF"
 		(shape input)
 		(at 68.58 46.99 90)
 		(fields_autoplaced yes)
@@ -13878,7 +13878,7 @@
 		)
 		(uuid "4d1c020d-5bbd-4e4b-b5de-9bea3973180f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 39.5445 90)
+			(at 68.58 31.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13888,7 @@
 			)
 		)
 	)
-	(global_label "V0_NRF"
+	(global_label "SENSOR1_VIN_NRF"
 		(shape input)
 		(at 93.98 74.93 0)
 		(fields_autoplaced yes)
@@ -13900,7 +13900,7 @@
 		)
 		(uuid "53a21a5e-d341-40bb-b4c6-64ff94a4364f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8064 74.93 0)
+			(at 109.9969 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13910,7 +13910,7 @@
 			)
 		)
 	)
-	(global_label "V0_NRF"
+	(global_label "SENSOR1_VIN_NRF"
 		(shape input)
 		(at 153.67 194.31 0)
 		(fields_autoplaced yes)
@@ -13922,7 +13922,7 @@
 		)
 		(uuid "5706dadc-efe3-4e14-9197-b121afcc72e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4964 194.31 0)
+			(at 169.6869 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14130,7 +14130,7 @@
 			)
 		)
 	)
-	(global_label "I0_NRF"
+	(global_label "SENSOR1_IIN_NRF"
 		(shape input)
 		(at 93.98 72.39 0)
 		(fields_autoplaced yes)
@@ -14142,7 +14142,7 @@
 		)
 		(uuid "720cb232-811f-426c-8830-20259dcac00f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.4255 72.39 0)
+			(at 109.616 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14702,7 +14702,7 @@
 			)
 		)
 	)
-	(global_label "V1_NRF"
+	(global_label "SENSOR2_VIN_NRF"
 		(shape input)
 		(at 93.98 64.77 0)
 		(fields_autoplaced yes)
@@ -14714,7 +14714,7 @@
 		)
 		(uuid "d2def658-6d10-4d8f-a29b-3fdc59f8ba99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.8064 64.77 0)
+			(at 109.9969 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17862,6 +17862,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3061e5a6-45ff-40d0-b7fe-4b1fc5b5dd7d")
+		(property "Reference" "#PWR014"
+			(at 76.2 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT_SENSOR2"
+			(at 76.2 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b35cf50-fca2-4ece-9811-72816a1349c2")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x10_Pin")
 		(at 378.46 105.41 0)
 		(unit 1)
@@ -19194,6 +19260,72 @@
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b501e8f-b0ee-4e1e-8010-2c53cae5a086")
+		(property "Reference" "#PWR011"
+			(at 76.2 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT_SENSOR1"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99d5246b-e233-4fa3-b951-c9d6f60cc29e")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -23712,72 +23844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 76.2 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a8bacde-276e-4b65-8773-2c4b3215b0da")
-		(property "Reference" "#PWR09"
-			(at 76.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_SENSOR1"
-			(at 76.2 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 76.2 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fb1ea16-e36a-40ea-8c3a-0e0a9e261c55")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 81.28 118.11 0)
 		(unit 1)
@@ -24756,72 +24822,6 @@
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 76.2 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d066db4-183a-4e7a-86af-c815c9401bc9")
-		(property "Reference" "#PWR031"
-			(at 76.2 255.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_SENSOR2"
-			(at 76.2 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 76.2 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c22d633-2cd0-4eaa-b993-f21bccaa7d5e")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -25924,72 +25924,6 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 76.2 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b5387817-73e7-4c46-8fe1-b48ac827b9cd")
-		(property "Reference" "#PWR011"
-			(at 76.2 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_SENSOR1"
-			(at 76.2 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 76.2 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "838a09d7-6e49-4e0f-b6b7-69e653841e2f")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
 		(at 294.64 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27074,72 +27008,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 76.2 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf6ce63f-7938-4a35-96e7-712f61ed7fbe")
-		(property "Reference" "#PWR029"
-			(at 76.2 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "V_SENSOR2"
-			(at 76.2 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 76.2 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79f8555a-2267-43a7-852c-d7a01f2ffc14")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 326.39 224.79 0)
 		(unit 1)
@@ -27552,6 +27420,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d30dec59-2f79-413d-8d70-d61a8f01a748")
+		(property "Reference" "#PWR09"
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT_SENSOR1"
+			(at 76.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f69315-e110-4839-88f4-d6a9eb387736")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 34.29 43.18 0)
 		(unit 1)
@@ -27885,6 +27819,72 @@
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 76.2 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6e96792-6c4f-4e19-846b-400d944ee14c")
+		(property "Reference" "#PWR013"
+			(at 76.2 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VOUT_SENSOR2"
+			(at 76.2 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 76.2 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f85296e5-8b45-4083-9cf6-bc7658a3286d")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
