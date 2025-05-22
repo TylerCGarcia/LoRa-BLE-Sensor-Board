@@ -8313,12 +8313,6 @@
 		(uuid "4bc22c16-1f46-498a-a4ff-8209ba2d52f7")
 	)
 	(junction
-		(at 209.55 210.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5006718f-5333-47f9-97e9-5f0cd3b4cc20")
-	)
-	(junction
 		(at 41.91 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8385,12 +8379,6 @@
 		(uuid "770dff20-9c39-4314-8068-66a1fa979b66")
 	)
 	(junction
-		(at 209.55 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b2e060b-588c-4618-b467-7f46d65ba8b5")
-	)
-	(junction
 		(at 148.59 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8409,16 +8397,16 @@
 		(uuid "845cb041-1481-43dd-a134-766826593e24")
 	)
 	(junction
+		(at 209.55 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "868cff98-4816-41b2-9d3d-c9ec672c4fe6")
+	)
+	(junction
 		(at 167.64 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87bb2ad7-c1c5-4e22-948a-cd64fdaaf0fb")
-	)
-	(junction
-		(at 209.55 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88343246-602f-4750-a4bd-bbbb07ae8b3c")
 	)
 	(junction
 		(at 100.33 39.37)
@@ -8529,6 +8517,12 @@
 		(uuid "c5d258e5-9fbb-4c8f-8d9d-02a32644518d")
 	)
 	(junction
+		(at 209.55 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8bd6116-e86d-45a5-9312-efbdf5ed5968")
+	)
+	(junction
 		(at 148.59 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8569,12 +8563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da515f41-e903-4d05-bcfd-20175c03f487")
-	)
-	(junction
-		(at 209.55 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "def88319-6807-4017-9cac-ca656100aecd")
 	)
 	(junction
 		(at 264.16 63.5)
@@ -8852,7 +8840,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 193.04) (xy 228.6 210.82)
+			(xy 228.6 193.04) (xy 228.6 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9352,7 +9340,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 210.82) (xy 209.55 210.82)
+			(xy 190.5 203.2) (xy 209.55 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9512,6 +9500,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 165.1) (xy 217.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25183081-9640-4ec6-af38-6a6e8038c261")
+	)
+	(wire
+		(pts
 			(xy 100.33 39.37) (xy 100.33 40.64)
 		)
 		(stroke
@@ -9559,16 +9557,6 @@
 			(type default)
 		)
 		(uuid "28c600d8-916f-42a0-a116-5dfe98d417cb")
-	)
-	(wire
-		(pts
-			(xy 209.55 210.82) (xy 217.17 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29709014-2872-4712-9651-c22f5f6867d5")
 	)
 	(wire
 		(pts
@@ -9962,16 +9950,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 162.56) (xy 209.55 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4234caf0-e48e-4d9b-ade0-07d14c6de86c")
-	)
-	(wire
-		(pts
 			(xy 189.23 78.74) (xy 186.69 78.74)
 		)
 		(stroke
@@ -10142,16 +10120,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 200.66) (xy 209.55 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ba02be1-7f31-4a6f-a2b8-ceec3c517883")
-	)
-	(wire
-		(pts
 			(xy 137.16 194.31) (xy 148.59 194.31)
 		)
 		(stroke
@@ -10232,16 +10200,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 163.83) (xy 198.12 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51a592d6-bd79-41ea-8d60-deb66252dbfd")
-	)
-	(wire
-		(pts
 			(xy 270.51 69.85) (xy 270.51 71.12)
 		)
 		(stroke
@@ -10279,6 +10237,16 @@
 			(type default)
 		)
 		(uuid "52a97cba-33da-4e96-96c9-a703f056e5d5")
+	)
+	(wire
+		(pts
+			(xy 209.55 162.56) (xy 209.55 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539d962f-b2d5-4e7b-8923-a09a66cfb267")
 	)
 	(wire
 		(pts
@@ -10352,7 +10320,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 209.55) (xy 190.5 210.82)
+			(xy 190.5 201.93) (xy 190.5 203.2)
 		)
 		(stroke
 			(width 0)
@@ -10729,16 +10697,6 @@
 			(type default)
 		)
 		(uuid "6708f62c-d808-4a9b-8b57-1d60b41483ad")
-	)
-	(wire
-		(pts
-			(xy 209.55 163.83) (xy 209.55 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "671be0b9-de2d-43f3-860c-a589e6e6fae0")
 	)
 	(wire
 		(pts
@@ -11202,7 +11160,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 210.82) (xy 224.79 210.82)
+			(xy 228.6 203.2) (xy 224.79 203.2)
 		)
 		(stroke
 			(width 0)
@@ -11392,6 +11350,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 203.2) (xy 217.17 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f3b63d-b95f-428b-a3c4-2fa2d79b4e09")
+	)
+	(wire
+		(pts
 			(xy 167.64 59.69) (xy 167.64 60.96)
 		)
 		(stroke
@@ -11462,7 +11430,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 172.72) (xy 217.17 172.72)
+			(xy 190.5 165.1) (xy 209.55 165.1)
 		)
 		(stroke
 			(width 0)
@@ -11652,16 +11620,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 201.93) (xy 198.12 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0174aaa-c0b8-4fc4-b380-7cb88d70d660")
-	)
-	(wire
-		(pts
 			(xy 55.88 220.98) (xy 55.88 218.44)
 		)
 		(stroke
@@ -11672,7 +11630,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 172.72) (xy 224.79 172.72)
+			(xy 228.6 165.1) (xy 224.79 165.1)
 		)
 		(stroke
 			(width 0)
@@ -11739,16 +11697,6 @@
 			(type default)
 		)
 		(uuid "a3f2ad60-ae22-498b-bbf3-a9ac47d4ff55")
-	)
-	(wire
-		(pts
-			(xy 205.74 201.93) (xy 209.55 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f4383c-697f-48e6-8367-22c076cf9c12")
 	)
 	(wire
 		(pts
@@ -11842,16 +11790,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 203.2) (xy 196.85 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c36282-6167-4b11-b54a-5a7b821c5482")
-	)
-	(wire
-		(pts
 			(xy 255.27 71.12) (xy 270.51 71.12)
 		)
 		(stroke
@@ -11899,16 +11837,6 @@
 			(type default)
 		)
 		(uuid "ac1e1abf-7df6-4660-87bb-a75ee76ef9ca")
-	)
-	(wire
-		(pts
-			(xy 196.85 165.1) (xy 196.85 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac82319e-f519-41d0-b19a-54ddbb953949")
 	)
 	(wire
 		(pts
@@ -12039,6 +11967,16 @@
 			(type default)
 		)
 		(uuid "b40660fb-ad50-48a0-8b5c-588e6d5a5e5d")
+	)
+	(wire
+		(pts
+			(xy 209.55 200.66) (xy 209.55 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b489a679-8652-4ca6-8135-ac4e26e27280")
 	)
 	(wire
 		(pts
@@ -12302,7 +12240,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 154.94) (xy 228.6 172.72)
+			(xy 228.6 154.94) (xy 228.6 165.1)
 		)
 		(stroke
 			(width 0)
@@ -12379,16 +12317,6 @@
 			(type default)
 		)
 		(uuid "cbfcfe2f-8538-4c8c-830b-71eca48abdf0")
-	)
-	(wire
-		(pts
-			(xy 190.5 172.72) (xy 209.55 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccbc01ca-1b8c-4372-932b-24d0d0f9c0ee")
 	)
 	(wire
 		(pts
@@ -12952,7 +12880,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 171.45) (xy 190.5 172.72)
+			(xy 190.5 163.83) (xy 190.5 165.1)
 		)
 		(stroke
 			(width 0)
@@ -13212,16 +13140,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 163.83) (xy 209.55 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feababff-eafb-4009-a821-645207126531")
-	)
-	(wire
-		(pts
 			(xy 41.91 228.6) (xy 40.64 228.6)
 		)
 		(stroke
@@ -13229,16 +13147,6 @@
 			(type default)
 		)
 		(uuid "feb9ec41-e1c2-49ce-99b7-9b0f370916f7")
-	)
-	(wire
-		(pts
-			(xy 209.55 201.93) (xy 209.55 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff93d3f3-1993-4fd6-bcbc-37e96c41eea9")
 	)
 	(wire
 		(pts
@@ -15597,7 +15505,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 190.5 209.55 0)
+		(at 190.5 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15606,7 +15514,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a40eb01-3189-4de3-941e-fbbd9c7ec98f")
 		(property "Reference" "#PWR068"
-			(at 190.5 213.36 0)
+			(at 190.5 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15615,7 +15523,7 @@
 			)
 		)
 		(property "Value" "VBOOST2"
-			(at 190.5 204.47 0)
+			(at 190.5 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15623,7 +15531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 209.55 0)
+			(at 190.5 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15632,7 +15540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 209.55 0)
+			(at 190.5 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15641,7 +15549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 190.5 209.55 0)
+			(at 190.5 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15727,76 +15635,6 @@
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 201.93 163.83 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c17dabc-17a0-4c2d-b421-5aae88cb497e")
-		(property "Reference" "R31"
-			(at 202.946 161.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "300K"
-			(at 204.47 166.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 202.184 164.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 201.93 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f0a10be-8c2a-4b68-b1d1-0d274a016888")
-		)
-		(pin "2"
-			(uuid "eee9b86d-da1a-4ca7-914b-eff84d74bd07")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17726,73 +17564,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 165.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2f8924aa-defa-4435-8590-6a3059b88d5a")
-		(property "Reference" "#PWR072"
-			(at 196.85 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b74b5610-6445-4235-9984-4bab60fd5d86")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 283.21 113.03 0)
 		(unit 1)
@@ -18015,75 +17786,6 @@
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 209.55 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "320f31ef-32f8-42ff-a5f8-6984f43102a9")
-		(property "Reference" "R33"
-			(at 212.09 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "300K"
-			(at 212.09 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.566 169.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 209.55 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86f5b654-3b04-495c-aa4e-f26ed13848d1")
-		)
-		(pin "2"
-			(uuid "ea85c30d-ac13-478a-b34d-75b74125b441")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -20232,73 +19934,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 196.85 203.2 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "585b5b46-c5c1-4c32-8e04-fe8b5e3c933e")
-		(property "Reference" "#PWR073"
-			(at 196.85 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 196.85 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffb87ff9-904f-4d91-bb1f-2ea0cc230aa7")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 340.36 224.79 0)
 		(unit 1)
@@ -20772,7 +20407,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 190.5 171.45 0)
+		(at 190.5 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20781,7 +20416,7 @@
 		(fields_autoplaced yes)
 		(uuid "60808201-9f63-4a32-ae1a-68a313eafa0b")
 		(property "Reference" "#PWR067"
-			(at 190.5 175.26 0)
+			(at 190.5 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20790,7 +20425,7 @@
 			)
 		)
 		(property "Value" "VBOOST1"
-			(at 190.5 166.37 0)
+			(at 190.5 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20798,7 +20433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 171.45 0)
+			(at 190.5 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20807,7 +20442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 171.45 0)
+			(at 190.5 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20816,7 +20451,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 190.5 171.45 0)
+			(at 190.5 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21255,75 +20890,6 @@
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 209.55 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6699e062-488f-4e13-bf79-080155fa5c36")
-		(property "Reference" "R34"
-			(at 212.09 205.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "300K"
-			(at 212.09 208.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 210.566 207.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 209.55 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa923946-94dc-4017-ba09-e3165c626673")
-		)
-		(pin "2"
-			(uuid "48b8810b-f031-43ba-afac-46a18fd5e391")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -22543,76 +22109,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 201.93 201.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a4eef32-02dc-4771-9b78-a7de017a489c")
-		(property "Reference" "R32"
-			(at 202.946 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "300K"
-			(at 204.47 204.724 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 202.184 202.946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 201.93 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a03770cd-43fa-43f9-a284-8f9fe549fe7c")
-		)
-		(pin "2"
-			(uuid "963f8836-3172-40c4-b7ab-f1baf9dfc86c")
-		)
-		(instances
-			(project "LoRa-BLE_Sensor_V0.1"
-				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 76.2 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23639,7 +23135,7 @@
 	)
 	(symbol
 		(lib_id "User_Actives:BAT54W-HG3-08")
-		(at 220.98 172.72 180)
+		(at 220.98 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23648,7 +23144,7 @@
 		(fields_autoplaced yes)
 		(uuid "87a62c72-3a2d-4145-893b-0b35308bccf5")
 		(property "Reference" "D14"
-			(at 221.2975 168.91 0)
+			(at 221.2975 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23656,7 +23152,7 @@
 			)
 		)
 		(property "Value" "BAT54W-HG3-08"
-			(at 220.98 167.64 0)
+			(at 220.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23665,7 +23161,7 @@
 			)
 		)
 		(property "Footprint" "User_Actives:SOD3716X135N"
-			(at 208.28 79.07 0)
+			(at 208.28 71.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23675,7 +23171,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/BAT54W-HG3-08.pdf"
-			(at 208.28 -20.93 0)
+			(at 208.28 -28.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23685,7 +23181,7 @@
 			)
 		)
 		(property "Description" "Schottky Diodes & Rectifiers 30V Zener SKY DIODE SOD-123"
-			(at 220.98 166.37 0)
+			(at 220.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24618,7 +24114,7 @@
 	)
 	(symbol
 		(lib_id "User_Actives:BAT54W-HG3-08")
-		(at 220.98 210.82 180)
+		(at 220.98 203.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24627,7 +24123,7 @@
 		(fields_autoplaced yes)
 		(uuid "98e98787-7130-4876-8dd5-ea4a79671e92")
 		(property "Reference" "D15"
-			(at 221.2975 207.01 0)
+			(at 221.2975 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24635,7 +24131,7 @@
 			)
 		)
 		(property "Value" "BAT54W-HG3-08"
-			(at 220.98 205.74 0)
+			(at 220.98 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24644,7 +24140,7 @@
 			)
 		)
 		(property "Footprint" "User_Actives:SOD3716X135N"
-			(at 208.28 117.17 0)
+			(at 208.28 109.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24654,7 +24150,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/BAT54W-HG3-08.pdf"
-			(at 208.28 17.17 0)
+			(at 208.28 9.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24664,7 +24160,7 @@
 			)
 		)
 		(property "Description" "Schottky Diodes & Rectifiers 30V Zener SKY DIODE SOD-123"
-			(at 220.98 204.47 0)
+			(at 220.98 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
