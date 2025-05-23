@@ -8302,6 +8302,16 @@
 		)
 		(uuid fcd78189-70fe-499c-9053-32f46db41cdc)
 	)
+	(text "Analog Pins\nP0.31\nP0.29\nP0.02\nP0.30\nP0.28\nP0.03\nP0.04\nP0.05"
+		(exclude_from_sim no)
+		(at 119.38 75.692 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16619632-f6ea-4eed-ac5e-466201631eb8")
+	)
 	(text "Sensor 3 is only used for digital\ninterfaces that work at 3.3V logic \nand can be powered with 3.3V or 5V"
 		(exclude_from_sim no)
 		(at 350.012 98.044 0)
@@ -8388,7 +8398,7 @@
 	)
 	(text "This ensures BUCK1 is not supplying power while boost2 is enabled"
 		(exclude_from_sim no)
-		(at 229.87 234.188 0)
+		(at 230.886 230.886 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9416,7 +9426,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 113.03) (xy 35.56 113.03)
+			(xy 93.98 62.23) (xy 92.71 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9776,16 +9786,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 64.77) (xy 93.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19d07a83-0fa5-426f-af5e-b39bf3c1a837")
-	)
-	(wire
-		(pts
 			(xy 92.71 72.39) (xy 93.98 72.39)
 		)
 		(stroke
@@ -9863,16 +9863,6 @@
 			(type default)
 		)
 		(uuid "1d09ee84-3983-4443-977a-66676deec1a2")
-	)
-	(wire
-		(pts
-			(xy 92.71 85.09) (xy 93.98 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dbb61f5-7428-4424-a396-297181bfdc15")
 	)
 	(wire
 		(pts
@@ -10336,6 +10326,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 82.55) (xy 93.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36224ce4-0047-48fb-bb59-fffa0efde4e3")
+	)
+	(wire
+		(pts
 			(xy 186.69 81.28) (xy 186.69 78.74)
 		)
 		(stroke
@@ -10586,16 +10586,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 110.49) (xy 35.56 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "433e9d2f-a5a0-4cdd-871b-5d02cdf8db44")
-	)
-	(wire
-		(pts
 			(xy 191.77 63.5) (xy 181.61 63.5)
 		)
 		(stroke
@@ -10773,6 +10763,16 @@
 			(type default)
 		)
 		(uuid "4bee85dc-421e-4eb2-85bb-b99bef56c92f")
+	)
+	(wire
+		(pts
+			(xy 93.98 90.17) (xy 92.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c73769c-525c-4bcf-b7c8-505fd0c69ee0")
 	)
 	(wire
 		(pts
@@ -11146,7 +11146,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 118.11) (xy 35.56 118.11)
+			(xy 68.58 46.99) (xy 68.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11826,16 +11826,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 48.26) (xy 68.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81fde4b6-ab4e-4149-a890-9c069bc2f9f5")
-	)
-	(wire
-		(pts
 			(xy 76.2 283.21) (xy 76.2 284.48)
 		)
 		(stroke
@@ -12216,16 +12206,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 82.55) (xy 93.98 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "945c39f6-e384-433b-84ca-54df34ccbd20")
-	)
-	(wire
-		(pts
 			(xy 139.7 175.26) (xy 142.24 175.26)
 		)
 		(stroke
@@ -12233,6 +12213,16 @@
 			(type default)
 		)
 		(uuid "94931909-181a-46d1-9287-d24408c6bd85")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 93.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b39c8e-020b-40e0-9785-cd4d056ce1bf")
 	)
 	(wire
 		(pts
@@ -12576,16 +12566,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 67.31) (xy 93.98 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a672717b-502f-476d-8d62-015b85130e5f")
-	)
-	(wire
-		(pts
 			(xy 294.64 105.41) (xy 294.64 106.68)
 		)
 		(stroke
@@ -12856,6 +12836,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 85.09) (xy 93.98 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5320f36-b8a5-44f5-8904-066f55d55da3")
+	)
+	(wire
+		(pts
 			(xy 181.61 60.96) (xy 181.61 63.5)
 		)
 		(stroke
@@ -12903,6 +12893,16 @@
 			(type default)
 		)
 		(uuid "b7e2d525-8790-4690-934b-19b12ba86db5")
+	)
+	(wire
+		(pts
+			(xy 92.71 67.31) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8731f65-183c-46dc-ab40-ac0c827720e3")
 	)
 	(wire
 		(pts
@@ -13216,7 +13216,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 102.87) (xy 35.56 102.87)
+			(xy 40.64 85.09) (xy 41.91 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13526,7 +13526,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 115.57) (xy 35.56 115.57)
+			(xy 93.98 64.77) (xy 92.71 64.77)
 		)
 		(stroke
 			(width 0)
@@ -13666,6 +13666,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 77.47) (xy 93.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cb361b-bf49-4ce6-bb54-9f46fa29e322")
+	)
+	(wire
+		(pts
 			(xy 251.46 106.68) (xy 283.21 106.68)
 		)
 		(stroke
@@ -13706,13 +13716,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 69.85) (xy 93.98 69.85)
+			(xy 92.71 80.01) (xy 93.98 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8d978cf-3553-4b51-8775-8da98c72f5da")
+		(uuid "e99a943e-2e5e-457e-ae9f-162c1c6ad91c")
 	)
 	(wire
 		(pts
@@ -13956,16 +13966,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 92.71 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f715a8cd-f180-49e0-8642-8b27a777e199")
-	)
-	(wire
-		(pts
 			(xy 340.36 198.12) (xy 340.36 199.39)
 		)
 		(stroke
@@ -14076,6 +14076,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc29268d-375f-4390-803b-66072f7fc04e")
+	)
+	(wire
+		(pts
 			(xy 129.54 166.37) (xy 129.54 167.64)
 		)
 		(stroke
@@ -14133,28 +14143,6 @@
 			(type default)
 		)
 		(uuid "ff979b2d-029b-44e0-979e-53f4b1c53b7e")
-	)
-	(global_label "SENSOR2_D1_NRF"
-		(shape input)
-		(at 93.98 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "00f1bca8-a528-4c29-9340-c469f7704163")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5684 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "SENSOR1_VIN"
 		(shape input)
@@ -14464,6 +14452,50 @@
 			)
 		)
 	)
+	(global_label "SENSOR1_D1_NRF"
+		(shape input)
+		(at 93.98 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1fffdec2-71a4-40d3-aaa4-9f3f5ff4b6d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5684 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOOST2_FB_CTRL2"
+		(shape input)
+		(at 93.98 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2161c85d-622a-45f8-b983-e3bbf3e1f8cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9969 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOST1_FB_CTRL1"
 		(shape input)
 		(at 368.3 195.58 180)
@@ -14499,6 +14531,28 @@
 		(uuid "2cc46d64-08fa-4be6-850d-b3c85db16830")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.3918 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR2_D1_NRF"
+		(shape input)
+		(at 93.98 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2df91e1e-a4af-4050-855f-355f241cdabc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5684 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14794,28 +14848,6 @@
 			)
 		)
 	)
-	(global_label "SENSOR2_IIN_NRF"
-		(shape input)
-		(at 68.58 46.99 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "4d1c020d-5bbd-4e4b-b5de-9bea3973180f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 31.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SENSOR1_VIN_NRF"
 		(shape input)
 		(at 93.98 74.93 0)
@@ -14840,22 +14872,22 @@
 	)
 	(global_label "V_SENSOR3_READ"
 		(shape input)
-		(at 34.29 118.11 180)
+		(at 68.58 46.99 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "53acaa3c-3e3b-4901-8ca9-a392907a2677")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9397 118.11 0)
+			(at 68.58 31.6397 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14950,7 +14982,7 @@
 	)
 	(global_label "BUT1"
 		(shape input)
-		(at 34.29 102.87 180)
+		(at 40.64 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14960,7 +14992,7 @@
 		)
 		(uuid "614236a8-1394-4aa4-92f0-c8c87f55ae36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.1778 102.87 0)
+			(at 34.5278 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15027,6 +15059,28 @@
 		(uuid "67fefdfa-398e-44e1-923a-44e6129fb144")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.9503 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR2_IIN_NRF"
+		(shape input)
+		(at 93.98 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "696dd18b-5881-4781-9b72-9b2e59380524")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.616 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15124,6 +15178,28 @@
 			)
 		)
 	)
+	(global_label "SENSOR2_D2_NRF"
+		(shape input)
+		(at 93.98 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "7583c820-62dd-4423-aca8-e3f30ef2cd51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5684 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NPM_SDA"
 		(shape input)
 		(at 40.64 82.55 180)
@@ -15190,9 +15266,9 @@
 			)
 		)
 	)
-	(global_label "SENSOR1_D2_NRF"
+	(global_label "BOOST2_FB_CTRL1"
 		(shape input)
-		(at 93.98 85.09 0)
+		(at 93.98 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15200,9 +15276,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8684db49-0104-4c9b-8740-63823b2b8e84")
+		(uuid "8546d21b-fa8c-4fc1-8aeb-98000d38d385")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5684 85.09 0)
+			(at 109.9969 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15322,6 +15398,28 @@
 			)
 		)
 	)
+	(global_label "SENSOR1_D2_NRF"
+		(shape input)
+		(at 93.98 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "99dfa059-78ee-4065-9c73-69d898e158d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.5684 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOST1_FB_CTRL2"
 		(shape input)
 		(at 393.7 195.58 0)
@@ -15423,6 +15521,28 @@
 		(uuid "a185bbbd-7881-4f63-897d-1bb349c652b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 343.5035 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BOOST3_EN"
+		(shape input)
+		(at 40.64 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "a3544cc2-eccd-49e4-bd7f-58c96a5ba676")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.8135 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15542,28 +15662,6 @@
 			)
 		)
 	)
-	(global_label "SENSOR1_D1_NRF"
-		(shape input)
-		(at 93.98 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "b0481d57-afea-40aa-ab69-564794610e65")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5684 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "V_SENSOR3_READ"
 		(shape input)
 		(at 160.02 255.27 0)
@@ -15674,28 +15772,6 @@
 			)
 		)
 	)
-	(global_label "BOOST2_FB_CTRL2"
-		(shape input)
-		(at 40.64 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "cc10012a-a6e5-4645-8a86-40977f3e6b87")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.6231 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SENSOR2_D1"
 		(shape input)
 		(at 228.6 275.59 0)
@@ -15762,28 +15838,6 @@
 			)
 		)
 	)
-	(global_label "SENSOR2_VIN_NRF"
-		(shape input)
-		(at 93.98 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "d2def658-6d10-4d8f-a29b-3fdc59f8ba99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.9969 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_D-"
 		(shape input)
 		(at 341.63 44.45 0)
@@ -15830,66 +15884,66 @@
 	)
 	(global_label "SENSOR3_D1_NRF"
 		(shape input)
-		(at 34.29 113.03 180)
+		(at 93.98 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d6614fed-3215-4712-8190-d0f090c02d48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.7016 113.03 0)
+			(at 109.5684 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOST3_EN"
-		(shape input)
-		(at 34.29 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "d6ef9381-3c2d-4b2b-ab02-3a5d3918d53b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.4635 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "SENSOR3_D2_NRF"
 		(shape input)
-		(at 34.29 115.57 180)
+		(at 93.98 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d8a172ab-e38b-4a23-a790-002b5ccadaaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.7016 115.57 0)
+			(at 109.5684 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR2_VIN_NRF"
+		(shape input)
+		(at 93.98 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "dbe964e4-bfaf-41b3-b5b9-f0385064dcb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.9969 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15956,28 +16010,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BOOST2_FB_CTRL1"
-		(shape input)
-		(at 93.98 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "e1f1f857-4c69-4dee-904b-e364587dd9f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.9969 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -16198,28 +16230,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SENSOR2_D2_NRF"
-		(shape input)
-		(at 93.98 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "fa7ad73c-8e42-4d18-8e69-f051b16f0ad2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5684 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
