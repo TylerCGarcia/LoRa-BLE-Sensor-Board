@@ -176,6 +176,251 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016)
@@ -8777,8 +9022,16 @@
 		(uuid "0c1640b8-bd9d-400d-865a-e212c01479ff")
 	)
 	(no_connect
+		(at 205.74 64.77)
+		(uuid "2cdc15e5-b862-44be-82c8-d03de6dc073b")
+	)
+	(no_connect
 		(at 127 36.83)
 		(uuid "2ff6b813-2e7f-4d84-9f2a-4df831619776")
+	)
+	(no_connect
+		(at 205.74 62.23)
+		(uuid "3691d640-7d18-4f75-a4af-832c3742f86e")
 	)
 	(no_connect
 		(at 101.6 36.83)
@@ -9212,16 +9465,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 107.95) (xy 35.56 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb6a99e-0166-4e36-8378-4b8de17728a0")
-	)
-	(wire
-		(pts
 			(xy 113.03 254) (xy 113.03 255.27)
 		)
 		(stroke
@@ -9462,16 +9705,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 64.77) (xy 205.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f73152-5ae0-4d6f-96ab-48d2371b64bb")
-	)
-	(wire
-		(pts
 			(xy 92.71 87.63) (xy 93.98 87.63)
 		)
 		(stroke
@@ -9599,6 +9832,16 @@
 			(type default)
 		)
 		(uuid "1f21bc00-ce22-4fdb-8f20-133702896a5d")
+	)
+	(wire
+		(pts
+			(xy 306.07 278.13) (xy 306.07 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4639de-8ef1-4713-a01c-9db2dfa06643")
 	)
 	(wire
 		(pts
@@ -9972,6 +10215,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 287.02) (xy 280.67 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32c5f1f8-20b5-4d1b-995d-91ac52ed0f36")
+	)
+	(wire
+		(pts
 			(xy 129.54 156.21) (xy 129.54 157.48)
 		)
 		(stroke
@@ -10199,6 +10452,16 @@
 			(type default)
 		)
 		(uuid "3c703d44-5d39-4dbe-a951-61df3b7cb3e5")
+	)
+	(wire
+		(pts
+			(xy 306.07 287.02) (xy 306.07 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c74d3de-6cdc-47ec-8a58-2e75017a49f0")
 	)
 	(wire
 		(pts
@@ -10789,6 +11052,16 @@
 			(type default)
 		)
 		(uuid "5adb0381-2714-435e-b16e-c62ecfd60ddf")
+	)
+	(wire
+		(pts
+			(xy 280.67 278.13) (xy 280.67 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af40cbc-fd0c-4afa-bc4b-bdd807649038")
 	)
 	(wire
 		(pts
@@ -11552,7 +11825,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 52.07) (xy 308.61 53.34)
+			(xy 308.61 43.18) (xy 308.61 44.45)
 		)
 		(stroke
 			(width 0)
@@ -11579,6 +11852,16 @@
 			(type default)
 		)
 		(uuid "84ce836b-c08d-479c-bf75-578d95d1ac41")
+	)
+	(wire
+		(pts
+			(xy 279.4 284.48) (xy 280.67 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85184ebd-d9cb-4b49-804c-b57d451fec65")
 	)
 	(wire
 		(pts
@@ -11762,13 +12045,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 105.41) (xy 35.56 105.41)
+			(xy 279.4 281.94) (xy 280.67 281.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e7fe678-b318-4ceb-89a1-32889593a526")
+		(uuid "8e601c67-54d9-41c3-83a3-ca8ea4f98c73")
 	)
 	(wire
 		(pts
@@ -11992,6 +12275,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 279.4) (xy 306.07 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f71a0a-c7fe-4480-8d28-2cd6addaec27")
+	)
+	(wire
+		(pts
 			(xy 254 275.59) (xy 254 276.86)
 		)
 		(stroke
@@ -12029,6 +12322,16 @@
 			(type default)
 		)
 		(uuid "9abef770-d3cb-4fb8-afe2-bbad51f355a8")
+	)
+	(wire
+		(pts
+			(xy 304.8 281.94) (xy 306.07 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4b9861-c68c-4dcf-8bce-14813dfb26fc")
 	)
 	(wire
 		(pts
@@ -12352,13 +12655,23 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 33.02) (xy 308.61 44.45)
+			(xy 308.61 33.02) (xy 308.61 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "acaf4420-2843-4d62-82c1-dc5e322f932e")
+	)
+	(wire
+		(pts
+			(xy 304.8 287.02) (xy 306.07 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0dc5ea-3c0b-4823-bfd7-1f5ad4d85a5b")
 	)
 	(wire
 		(pts
@@ -12792,6 +13105,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 287.02) (xy 280.67 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42dcbca-0372-4089-9f0a-7717d896c46f")
+	)
+	(wire
+		(pts
 			(xy 187.96 99.06) (xy 187.96 100.33)
 		)
 		(stroke
@@ -12799,16 +13122,6 @@
 			(type default)
 		)
 		(uuid "c45b0071-5674-42dc-877b-6f93b83d08b8")
-	)
-	(wire
-		(pts
-			(xy 204.47 62.23) (xy 205.74 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c63cbbd5-696c-4326-987a-16f27acf6f47")
 	)
 	(wire
 		(pts
@@ -12869,6 +13182,16 @@
 			(type default)
 		)
 		(uuid "c7a6c048-41c6-4e3e-b1ad-70ffb7442c86")
+	)
+	(wire
+		(pts
+			(xy 304.8 284.48) (xy 306.07 284.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ba4cb6-86e2-426e-a1ab-dff74fe6079f")
 	)
 	(wire
 		(pts
@@ -13089,6 +13412,16 @@
 			(type default)
 		)
 		(uuid "d476d465-6ff2-4d84-bd98-6f67a7c32bf1")
+	)
+	(wire
+		(pts
+			(xy 279.4 279.4) (xy 280.67 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58ea8bb-75ce-4111-b3e6-31b6442fc57d")
 	)
 	(wire
 		(pts
@@ -14002,28 +14335,6 @@
 			)
 		)
 	)
-	(global_label "NPM_IO2"
-		(shape input)
-		(at 34.29 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "0bab0d86-97cc-460e-a45f-55d8f91a2d9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.5111 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SENSOR2_VIN_NRF"
 		(shape input)
 		(at 158.75 214.63 0)
@@ -14174,28 +14485,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NPM_IO1"
-		(shape input)
-		(at 204.47 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "1b9e4e9d-341e-4ab1-9b26-9b2d2951aa17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6911 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14530,28 +14819,6 @@
 			)
 		)
 	)
-	(global_label "NPM_IO2"
-		(shape input)
-		(at 204.47 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "4847898c-d5b3-4de2-b9fc-26abbe2f5895")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.6911 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOST2_EN"
 		(shape input)
 		(at 40.64 69.85 180)
@@ -14658,28 +14925,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "NPM_IO1"
-		(shape input)
-		(at 34.29 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right)
-		)
-		(uuid "5d3d14db-5ad9-40e8-a1db-47ffc0fa6f55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.5111 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -14970,6 +15215,28 @@
 			)
 		)
 	)
+	(global_label "SENSOR1_D2_NRF"
+		(shape input)
+		(at 280.67 281.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "77aceba6-dd3b-429c-9d53-012d0984cf46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.2584 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NPM_SDA"
 		(shape input)
 		(at 204.47 105.41 180)
@@ -15005,6 +15272,28 @@
 		(uuid "82f0be02-ae8a-462b-be0c-63b586a871b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.9969 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR1_D1_NRF"
+		(shape input)
+		(at 280.67 284.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "8653a7d2-e253-4610-ba92-3ca8810996f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.2584 284.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15115,6 +15404,28 @@
 		(uuid "90d290ad-6b25-498b-8faa-1219ecf6fb0d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.1218 275.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SENSOR2_D1_NRF"
+		(shape input)
+		(at 306.07 281.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "95f72eed-f825-4d5a-a952-6a638f888b2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.6584 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15630,6 +15941,28 @@
 			)
 		)
 	)
+	(global_label "SENSOR2_D2_NRF"
+		(shape input)
+		(at 306.07 284.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "d6693a2a-7a33-4777-a677-c27f51815bfa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.6584 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SENSOR3_D2_NRF"
 		(shape input)
 		(at 93.98 64.77 0)
@@ -15970,7 +16303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01566f83-4f65-4e8b-9abb-7f2e21c033c3")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 264.16 111.7599 0)
 			(effects
 				(font
@@ -16024,7 +16357,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -17009,15 +17342,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 308.61 48.26 0)
+		(at 308.61 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "10d31d49-c1ef-4229-8786-e181efab7c1b")
-		(property "Reference" "C23"
-			(at 312.42 46.9899 0)
+		(property "Reference" "C10"
+			(at 312.42 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17026,7 +17359,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 312.42 49.5299 0)
+			(at 312.42 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17035,7 +17368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 309.5752 52.07 0)
+			(at 309.5752 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17044,7 +17377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 308.61 48.26 0)
+			(at 308.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17053,7 +17386,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 308.61 48.26 0)
+			(at 308.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17070,7 +17403,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C23")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -17085,7 +17418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1799c07e-6710-4150-b4d3-ff8ddb2a0558")
-		(property "Reference" "R15"
+		(property "Reference" "R26"
 			(at 161.29 259.0799 0)
 			(effects
 				(font
@@ -17139,7 +17472,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R15")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -17155,7 +17488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1846fa92-bc35-4296-a87a-7c575072d64a")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 185.42 56.5784 0)
 			(effects
 				(font
@@ -17210,7 +17543,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17493,7 +17826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bae74f3-b5d0-4917-a030-690196db0ebe")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 171.45 54.6099 0)
 			(effects
 				(font
@@ -17547,7 +17880,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17630,7 +17963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d30d56d-f398-4ead-9a87-6e0c46920832")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 275.59 111.7599 0)
 			(effects
 				(font
@@ -17684,7 +18017,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -17819,6 +18152,72 @@
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 306.07 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2018a2f0-7e15-49bd-855e-d42942cea9bf")
+		(property "Reference" "#PWR0126"
+			(at 306.07 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 306.07 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 306.07 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75fe15f0-e9b3-4139-a3aa-cc5e002c0b28")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -18117,7 +18516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "242e013b-c0d6-426c-a2f6-ab47e42b13c4")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 78.74 168.9099 90)
 			(effects
 				(font
@@ -18174,7 +18573,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -18872,7 +19271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d70929d-866f-4ce1-9512-dc87fec2e9ad")
-		(property "Reference" "R43"
+		(property "Reference" "R31"
 			(at 386.08 181.6099 0)
 			(effects
 				(font
@@ -18926,7 +19325,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R43")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -18941,7 +19340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f9465f4-3b8a-4aa5-8b31-2e7c2e4944a3")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 287.02 111.7599 0)
 			(effects
 				(font
@@ -18995,7 +19394,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -19211,7 +19610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3547c4ac-7ad7-4c45-86f7-5eb14de2bd29")
-		(property "Reference" "C22"
+		(property "Reference" "C13"
 			(at 300.99 46.9899 0)
 			(effects
 				(font
@@ -19265,7 +19664,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C22")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -20044,7 +20443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4218e4b7-dd79-46cb-9747-9c084973cbb2")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 106.6799 113.03 90)
 			(effects
 				(font
@@ -20098,7 +20497,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20114,7 +20513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4494ff66-58df-4b13-b2bb-af842754239c")
-		(property "Reference" "R30"
+		(property "Reference" "R4"
 			(at 185.42 93.9799 0)
 			(effects
 				(font
@@ -20168,7 +20567,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R30")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -20317,7 +20716,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49388ada-eb91-47ac-bae8-ac7b8ada8103")
-		(property "Reference" "R27"
+		(property "Reference" "R20"
 			(at 156.21 218.4399 0)
 			(effects
 				(font
@@ -20371,7 +20770,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R27")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -21014,7 +21413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5287ac8a-125c-452f-a31f-1a13b1fdc9b4")
-		(property "Reference" "R7"
+		(property "Reference" "R37"
 			(at 353.06 140.9699 0)
 			(effects
 				(font
@@ -21068,7 +21467,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R7")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -21084,7 +21483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5358b281-5688-4fcc-87f1-b74aecd921e4")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 193.04 36.8299 0)
 			(effects
 				(font
@@ -21138,7 +21537,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -21153,7 +21552,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53ded5f1-9eb4-4800-9d44-5fcb4a16304d")
-		(property "Reference" "R26"
+		(property "Reference" "R18"
 			(at 156.21 198.1199 0)
 			(effects
 				(font
@@ -21207,7 +21606,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R26")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -21282,6 +21681,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 306.07 288.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55c447a7-40ad-404f-bb3a-faa945b9f4a4")
+		(property "Reference" "#PWR0127"
+			(at 306.07 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 306.07 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 306.07 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19d8403f-baf5-4f0f-966e-3c217771cddf")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 127 58.42 0)
 		(mirror y)
@@ -21291,7 +21757,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5601eb69-eba2-4395-a91b-f227c7d88ccf")
-		(property "Reference" "R17"
+		(property "Reference" "R3"
 			(at 124.46 57.1499 0)
 			(effects
 				(font
@@ -21345,7 +21811,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R17")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -21426,7 +21892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d28a127-99ba-49bf-90cb-1808d3bb957b")
-		(property "Reference" "C25"
+		(property "Reference" "C27"
 			(at 357.886 237.49 0)
 			(effects
 				(font
@@ -21480,7 +21946,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C25")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -21488,7 +21954,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 53.34 0)
+		(at 308.61 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21497,7 +21963,7 @@
 		(fields_autoplaced yes)
 		(uuid "5de1c174-0235-48a0-9f1d-19cdab6eec10")
 		(property "Reference" "#PWR0104"
-			(at 308.61 59.69 0)
+			(at 308.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21506,7 +21972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 58.42 0)
+			(at 308.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21515,7 +21981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 53.34 0)
+			(at 308.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21524,7 +21990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 53.34 0)
+			(at 308.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21533,7 +21999,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 308.61 53.34 0)
+			(at 308.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21562,7 +22028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e613061-6b57-436e-8062-4ee8a492d9be")
-		(property "Reference" "D7"
+		(property "Reference" "D16"
 			(at 367.03 75.692 0)
 			(effects
 				(font
@@ -21622,7 +22088,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D7")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -21706,7 +22172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e88237b-83ff-4a33-8a5c-cd177671eaa5")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 274.32 74.9299 0)
 			(effects
 				(font
@@ -21760,7 +22226,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -21841,7 +22307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "607a759c-643c-4822-a37f-c53bc5a43255")
-		(property "Reference" "D13"
+		(property "Reference" "D1"
 			(at 196.85 72.39 0)
 			(effects
 				(font
@@ -21958,7 +22424,7 @@
 		(instances
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D13")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -22187,7 +22653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6204439f-3557-4fd8-b905-0f0c91eae040")
-		(property "Reference" "R40"
+		(property "Reference" "R34"
 			(at 342.9 247.6499 0)
 			(effects
 				(font
@@ -22241,7 +22707,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R40")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -22257,7 +22723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "643deec3-d686-4082-bd2f-97e322a383de")
-		(property "Reference" "R42"
+		(property "Reference" "R30"
 			(at 375.92 181.6099 0)
 			(effects
 				(font
@@ -22311,7 +22777,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R42")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -22459,7 +22925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65f1a298-2691-4713-9d12-e3990979b6ed")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 44.45 156.2099 0)
 			(effects
 				(font
@@ -22513,7 +22979,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -23063,7 +23529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72b076d0-f4c6-4324-968d-14442183c6c2")
-		(property "Reference" "R22"
+		(property "Reference" "R17"
 			(at 135.89 191.77 90)
 			(effects
 				(font
@@ -23115,7 +23581,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R22")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -23196,7 +23662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "747cb5f0-9b34-40f3-9abb-485e4a5b501a")
-		(property "Reference" "C19"
+		(property "Reference" "C26"
 			(at 292.1 234.95 0)
 			(effects
 				(font
@@ -23250,7 +23716,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C19")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -23332,7 +23798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "778c7dd5-fae2-4cbb-a362-e6d5891f22d3")
-		(property "Reference" "R20"
+		(property "Reference" "R13"
 			(at 135.89 153.67 90)
 			(effects
 				(font
@@ -23384,7 +23850,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R20")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -23470,7 +23936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7822dbda-5497-4f82-9a58-f86cdd670101")
-		(property "Reference" "R35"
+		(property "Reference" "R27"
 			(at 300.99 195.5799 0)
 			(effects
 				(font
@@ -23524,7 +23990,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R35")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -23540,7 +24006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d4725d-58a7-44f6-b039-4d85921d1d5f")
-		(property "Reference" "C5"
+		(property "Reference" "C20"
 			(at 146.05 160.0199 0)
 			(effects
 				(font
@@ -23594,7 +24060,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C5")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23611,7 +24077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7956c3b2-2620-4f95-a191-7b6f5842a3f2")
-		(property "Reference" "J4"
+		(property "Reference" "J7"
 			(at 247.65 264.16 0)
 			(effects
 				(font
@@ -23670,7 +24136,7 @@
 		(instances
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -23685,7 +24151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a865b36-d7c8-475e-a927-b3045c273eb8")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 78.74 156.2099 0)
 			(effects
 				(font
@@ -23739,7 +24205,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -23754,7 +24220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b089ff0-610b-4b4f-92d5-29310abd1c35")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 134.62 161.29 90)
 			(effects
 				(font
@@ -23809,7 +24275,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -24293,6 +24759,81 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 274.32 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e59cfa-869f-4896-8207-6e3629dddae0")
+		(property "Reference" "J8"
+			(at 274.955 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 274.955 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 274.32 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 274.32 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6937ff3b-1da6-4b1b-ad3f-aa76ed43e2af")
+		)
+		(pin "2"
+			(uuid "b4eaae25-f21d-4dc0-9e60-4dd06d6246d7")
+		)
+		(pin "1"
+			(uuid "71caa0be-d671-4add-a2f6-00adfdc6cc14")
+		)
+		(pin "4"
+			(uuid "3317dece-749f-4aeb-852e-c9f8f754dbbe")
+		)
+		(instances
+			(project ""
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "User_Actives:SQ2319CES")
 		(at 220.98 218.44 90)
 		(unit 1)
@@ -24439,7 +24980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8324e22b-eab7-4e0c-988d-20c278d89415")
-		(property "Reference" "R11"
+		(property "Reference" "R39"
 			(at 394.97 138.4299 0)
 			(effects
 				(font
@@ -24493,7 +25034,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R11")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -24577,7 +25118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84ee110e-5854-451a-a3c5-bc1976fd4620")
-		(property "Reference" "R8"
+		(property "Reference" "R38"
 			(at 394.97 128.2699 0)
 			(effects
 				(font
@@ -24631,7 +25172,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R8")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -24712,7 +25253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85da39f1-54d0-4ef1-8b74-eb79bf711a7f")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 106.6799 105.41 90)
 			(effects
 				(font
@@ -24766,7 +25307,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -24781,7 +25322,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85f57dda-a60d-464b-a65d-b6c6522c6cef")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 44.45 193.0399 0)
 			(effects
 				(font
@@ -24835,7 +25376,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -24916,7 +25457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87319d28-77b7-4653-98de-bc6a874bca64")
-		(property "Reference" "R29"
+		(property "Reference" "R24"
 			(at 138.43 259.0799 0)
 			(effects
 				(font
@@ -24970,7 +25511,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R29")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -24986,7 +25527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87a62c72-3a2d-4145-893b-0b35308bccf5")
-		(property "Reference" "D14"
+		(property "Reference" "D11"
 			(at 232.7275 163.83 0)
 			(effects
 				(font
@@ -25041,7 +25582,7 @@
 		(instances
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D14")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -25057,8 +25598,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87cc4b6c-0466-4e7d-a151-242b9d888dd3")
-		(property "Reference" "J8"
-			(at 133.35 107.9499 0)
+		(property "Reference" "J2"
+			(at 133.35 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25112,7 +25653,7 @@
 		(instances
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -25259,7 +25800,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a171f1c-e6de-42f0-9560-8ff9e1dd3f0e")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 78.74 265.4299 0)
 			(effects
 				(font
@@ -25313,7 +25854,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -25608,7 +26149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8de74b79-c335-4b71-aa5f-e3f33e918277")
-		(property "Reference" "D11"
+		(property "Reference" "D9"
 			(at 132.08 200.6599 90)
 			(effects
 				(font
@@ -25665,7 +26206,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D11")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -25813,7 +26354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9066f7fb-cbba-40c6-a464-f4c04d7ef27c")
-		(property "Reference" "D20"
+		(property "Reference" "D2"
 			(at 372.11 29.972 0)
 			(effects
 				(font
@@ -25873,7 +26414,7 @@
 		(instances
 			(project ""
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D20")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -26089,7 +26630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93c84f4d-ad02-4974-9c76-84a2bed810f8")
-		(property "Reference" "R45"
+		(property "Reference" "R36"
 			(at 386.08 236.2199 0)
 			(effects
 				(font
@@ -26143,7 +26684,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R45")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -26159,7 +26700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "956ca835-7349-4233-96cd-841b871c7951")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 267.97 54.6099 0)
 			(effects
 				(font
@@ -26213,7 +26754,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -26369,7 +26910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98e98787-7130-4876-8dd5-ea4a79671e92")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 232.7275 193.04 0)
 			(effects
 				(font
@@ -26424,7 +26965,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -26440,7 +26981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99862e89-fa4f-4dc1-9fae-83dd2af587ed")
-		(property "Reference" "D16"
+		(property "Reference" "D12"
 			(at 247.65 163.8299 90)
 			(effects
 				(font
@@ -26497,7 +27038,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D16")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -26580,7 +27121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d33a99a-21cc-4585-9667-99e35f32fe5c")
-		(property "Reference" "C21"
+		(property "Reference" "C19"
 			(at 298.45 111.7599 0)
 			(effects
 				(font
@@ -26634,7 +27175,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C21")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -26787,7 +27328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d8da1ea-c3d3-44e2-972b-123dd1140445")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 195.58 115.5699 0)
 			(effects
 				(font
@@ -26841,7 +27382,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -26858,8 +27399,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db342c1-237e-4326-97ec-d1b9fb815d5a")
-		(property "Reference" "C27"
-			(at 119.38 116.8401 0)
+		(property "Reference" "C6"
+			(at 119.38 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26868,7 +27409,7 @@
 			)
 		)
 		(property "Value" "300p"
-			(at 119.38 114.3001 0)
+			(at 119.38 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26912,7 +27453,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C27")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -27458,7 +27999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae822c6b-aa81-40f0-ac00-3ae4cd21246a")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 44.45 265.4299 0)
 			(effects
 				(font
@@ -27512,7 +28053,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -27728,7 +28269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b389a2ef-a58d-4660-89e7-6d03206afd1b")
-		(property "Reference" "D12"
+		(property "Reference" "D10"
 			(at 132.08 220.9799 90)
 			(effects
 				(font
@@ -27785,7 +28326,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D12")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -28272,7 +28813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c05ef83d-838e-4691-a72c-595c9ca655a1")
-		(property "Reference" "R37"
+		(property "Reference" "R28"
 			(at 342.9 182.8799 0)
 			(effects
 				(font
@@ -28326,7 +28867,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R37")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -28415,7 +28956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0dd696f-bc30-4317-81fd-626c107965f7")
-		(property "Reference" "R25"
+		(property "Reference" "R16"
 			(at 156.21 179.0699 0)
 			(effects
 				(font
@@ -28469,7 +29010,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R25")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -28621,7 +29162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4e0a63c-0801-4db1-8d9c-9c905e2c9db7")
-		(property "Reference" "R18"
+		(property "Reference" "R21"
 			(at 115.57 248.9199 0)
 			(effects
 				(font
@@ -28675,7 +29216,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R18")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -28691,7 +29232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f04c49-d108-4c93-b416-62efb3360ada")
-		(property "Reference" "D3"
+		(property "Reference" "D15"
 			(at 232.7275 222.25 0)
 			(effects
 				(font
@@ -28746,7 +29287,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D3")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -28761,7 +29302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c523710e-7727-4080-8211-d6189626b788")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 358.14 182.626 0)
 			(effects
 				(font
@@ -28815,7 +29356,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -28962,7 +29503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd3e75b8-cce8-4b7c-9f1a-92e2bd8d6e44")
-		(property "Reference" "R19"
+		(property "Reference" "R22"
 			(at 115.57 259.0799 0)
 			(effects
 				(font
@@ -29016,7 +29557,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R19")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -29031,7 +29572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdfde302-0dba-4461-be73-4705cf40b4a2")
-		(property "Reference" "R23"
+		(property "Reference" "R19"
 			(at 135.89 212.09 90)
 			(effects
 				(font
@@ -29083,7 +29624,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R23")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -29164,7 +29705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfe84097-ced3-4f44-859c-d653008c60cc")
-		(property "Reference" "R39"
+		(property "Reference" "R33"
 			(at 342.9 237.4899 0)
 			(effects
 				(font
@@ -29218,7 +29759,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R39")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -29233,7 +29774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0b3372e-b35c-4852-8863-d7dfe38b8204")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 78.74 193.0399 0)
 			(effects
 				(font
@@ -29287,7 +29828,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -29503,7 +30044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2692ca3-917d-4d76-b1a3-69b797dff16e")
-		(property "Reference" "D17"
+		(property "Reference" "D14"
 			(at 247.65 193.0399 90)
 			(effects
 				(font
@@ -29560,7 +30101,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D17")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -29695,6 +30236,73 @@
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 288.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d36f277f-5cfe-4572-904a-b322808bd17d")
+		(property "Reference" "#PWR079"
+			(at 280.67 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 288.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a337e51-c2f6-492a-8789-d91c48ba9c34")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -29913,7 +30521,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d64ec177-97a1-4e35-a598-2ff841d1a441")
-		(property "Reference" "R36"
+		(property "Reference" "R32"
 			(at 300.99 250.1899 0)
 			(effects
 				(font
@@ -29967,7 +30575,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R36")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -30253,7 +30861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9402c7a-7620-4c96-9e1d-6606bc622c74")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 78.74 205.7399 90)
 			(effects
 				(font
@@ -30310,7 +30918,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -30318,35 +30926,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 102.87 0)
-		(mirror x)
+		(at 115.57 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da19b411-3db0-4bb9-95d5-368cfbbefe9e")
-		(property "Reference" "C26"
-			(at 119.38 104.1401 0)
+		(property "Reference" "C5"
+			(at 119.38 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "300p"
-			(at 119.38 101.6001 0)
+			(at 119.38 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.5352 99.06 0)
+			(at 114.6048 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30381,7 +30987,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C26")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -30516,6 +31122,147 @@
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 280.67 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc1aef1a-653d-4ee3-be0c-fda1b6c20e3b")
+		(property "Reference" "#PWR023"
+			(at 280.67 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 280.67 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 280.67 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff5d98e7-5e2e-422d-ac24-add99d6c9396")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 299.72 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd85b8d-0bc8-42e7-b1a1-2425b7fb9c3c")
+		(property "Reference" "J9"
+			(at 300.355 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 300.355 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 299.72 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 299.72 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 299.72 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f8eedfaf-f18f-481f-ba8d-9722f7fbef56")
+		)
+		(pin "2"
+			(uuid "0c02a68a-d1f6-4d3a-b091-258d246b908f")
+		)
+		(pin "1"
+			(uuid "44ad12c8-4042-4103-9f8c-aae8afd3415f")
+		)
+		(pin "4"
+			(uuid "677a91fb-088f-41a2-b7f8-7d8ae8518703")
+		)
+		(instances
+			(project "LoRa-BLE-Sensor"
+				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -30663,7 +31410,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "def5a948-a85e-4d89-8ea4-130051e85d6a")
-		(property "Reference" "R12"
+		(property "Reference" "R25"
 			(at 161.29 248.9199 0)
 			(effects
 				(font
@@ -30717,7 +31464,7 @@
 		(instances
 			(project "LoRa-BLE-Sensor"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R12")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -30732,7 +31479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df561d99-2e38-4c83-a30f-920205b1a933")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 134.62 180.34 90)
 			(effects
 				(font
@@ -30787,7 +31534,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -30936,7 +31683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0aa447e-4427-49a5-92b6-c19c8b734354")
-		(property "Reference" "C6"
+		(property "Reference" "C21"
 			(at 146.05 179.0699 0)
 			(effects
 				(font
@@ -30990,7 +31737,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C6")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -31006,7 +31753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e17cdcd8-72b0-4403-a16a-c0b8feece105")
-		(property "Reference" "C7"
+		(property "Reference" "C22"
 			(at 146.05 198.1199 0)
 			(effects
 				(font
@@ -31060,7 +31807,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C7")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -31075,7 +31822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1bbde37-529e-46bb-b337-88ab349b66cd")
-		(property "Reference" "C18"
+		(property "Reference" "C24"
 			(at 292.1 180.34 0)
 			(effects
 				(font
@@ -31129,7 +31876,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C18")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -31144,7 +31891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e204c75b-e756-4860-9d4a-8cdb6c9a5f94")
-		(property "Reference" "R21"
+		(property "Reference" "R15"
 			(at 135.89 172.72 90)
 			(effects
 				(font
@@ -31196,7 +31943,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R21")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -31635,7 +32382,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e924e8cd-d9b1-4067-b4b6-0761ee18287a")
-		(property "Reference" "R38"
+		(property "Reference" "R29"
 			(at 342.9 193.0399 0)
 			(effects
 				(font
@@ -31689,7 +32436,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R38")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -31771,7 +32518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec3b84b5-84ce-4dc6-811a-880861061239")
-		(property "Reference" "R28"
+		(property "Reference" "R23"
 			(at 138.43 248.9199 0)
 			(effects
 				(font
@@ -31825,7 +32572,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R28")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -31841,7 +32588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed1fc201-3c88-488e-af24-82f2511be188")
-		(property "Reference" "R44"
+		(property "Reference" "R35"
 			(at 375.92 236.2199 0)
 			(effects
 				(font
@@ -31895,7 +32642,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R44")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -31976,7 +32723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee6634e4-75e3-4b72-a55e-087f4d834a66")
-		(property "Reference" "R24"
+		(property "Reference" "R14"
 			(at 156.21 160.0199 0)
 			(effects
 				(font
@@ -32030,7 +32777,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R24")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -32046,7 +32793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee818408-2a3b-4087-811c-17b2cf524d54")
-		(property "Reference" "C20"
+		(property "Reference" "C12"
 			(at 289.56 46.9899 0)
 			(effects
 				(font
@@ -32100,7 +32847,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C20")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -32116,7 +32863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0d7f96a-0dee-438a-9014-67a93778c9e8")
-		(property "Reference" "C16"
+		(property "Reference" "C11"
 			(at 278.13 46.9899 0)
 			(effects
 				(font
@@ -32170,7 +32917,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C16")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -32584,7 +33331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbd21839-39cf-4938-9769-7cb5e795284d")
-		(property "Reference" "C8"
+		(property "Reference" "C23"
 			(at 146.05 218.4399 0)
 			(effects
 				(font
@@ -32638,7 +33385,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "C8")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -32653,7 +33400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe22b0f5-5f1d-4b9d-bd01-4a79cce2125f")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 336.55 34.29 0)
 			(effects
 				(font
@@ -32720,7 +33467,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -32735,7 +33482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff2df462-e89f-4732-8370-d5fee2851e64")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 78.74 228.5999 0)
 			(effects
 				(font
@@ -32789,7 +33536,7 @@
 		(instances
 			(project "LoRa-BLE_Sensor_V0.1"
 				(path "/cc7ac87f-f524-46b8-b856-a8c437fb3dfe"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
