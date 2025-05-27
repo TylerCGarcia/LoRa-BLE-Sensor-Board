@@ -17798,7 +17798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "User_Connectors:18650_CLIP_PROTECTED"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 196.85 22.606 90)
 			(effects
 				(font
