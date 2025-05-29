@@ -21,10 +21,10 @@ power supply, independent of the other sensor. Sensor 1 and Sensor 2 are designe
    * Programmable over I2C with the RAK4630
  - Used to charge the battery and works as a fuel guage
  - Contains two buck converters
-   * Buck 1 is used to power the 3V relay
+   * Buck 1 is used for Sensor 3 3.3V output
    * Buck 2 is used at 3.3V to supply Vdd for the entire board
  - Contains 2 LDOs
-   * Used if either sensor is set to 3.3V
+   * Used if either Sensor 1 or Sensor 2 are set to 3.3V
  - Switch SW3
    * Used to change power modes on npm1300 or to do a power cycle of the board
  - RGB LED
