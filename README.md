@@ -58,19 +58,21 @@ power supply, independent of the other sensor. Sensor 1 and Sensor 2 are designe
    * Output is determined by resistors in feedback
  - This boost has one configuration which is 5V
 
+**Sensor 3 ESD**
+ - ESD protection for Sensor 3 power and digital lines
+  * ESD is for 5V for power and 3.3V for input lines
+
 **Power Switches** 
  - Connects boost and ldo/buck outputs so only 1 is used by the sensor
    * Boost outputs have priority if both are enabled
  - ESD protection for sensor power
    * Designed for 24V for Sensor 1 and Sensor 2
-   * 5V ESD for Sensor 3
    
 **Digital Inputs** 
  - MOSFET based level shifters
    * Allows sensor digital logic to be translated from sensor power to Vdd
  - ESD protection for digital inputs
    * Designed for 24V for Sensor 1 and Sensor 2
-   * 3.3V ESD for Sensor 3
 
 **Analog Inputs** 
  - 5 inputs meant for external sensors
@@ -85,6 +87,9 @@ power supply, independent of the other sensor. Sensor 1 and Sensor 2 are designe
 **Interface** 
  - Three screw terminal connectors for the sensors
    * Designed for pluggaple screw terminals
+ 
+**Debug**
+ - Two JST SH connectors for interfacing with Button 1 and nRF Reset
  - Two 2.54mm pin header for debugging Sensor 1 and Sensor 2
 
 # Power Analysis
